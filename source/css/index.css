@@ -1,0 +1,135 @@
+.after:after {
+  display: block;
+  content: '';
+  clear: both;
+}
+.before:before {
+  display: block;
+  content: '';
+  clear: both;
+}
+.content {
+  min-width: 1000px;
+  width: 100%;
+  background-color: #f8f8f8;
+}
+.content .cenbox {
+  max-width: 1280px;
+  min-width: 1000px;
+  padding: 40px;
+  margin: auto;
+}
+.content .cenbox .table1 {
+  height: 300px;
+  width: 100%;
+  min-width: 920px;
+}
+.content .cenbox .table1 td {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.content .cenbox .table1 td img {
+  width: 100%;
+  height: 100%;
+}
+.content .cenbox .table1 .desc {
+  padding: 40px;
+  width: 400px;
+  background-color: white;
+}
+.content .cenbox .table1 .desc .title {
+  font-size: 23px;
+}
+.content .cenbox .table1 .desc .summary {
+  margin-top: 25px;
+  font-size: 14px;
+}
+.content .cenbox .table1 .desc .more {
+  margin-top: 15px;
+  color: #987741;
+  font-size: 16px;
+}
+.content .cenbox .table2 {
+  height: 240px;
+  width: 100%;
+  min-width: 920px;
+}
+.content .cenbox .table2 td {
+  width: 33.33333333%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.content .cenbox .table2 td img {
+  width: 100%;
+  height: 100%;
+}
+.content .cenbox .table2 .desc {
+  padding: 40px;
+  background-color: white;
+  text-align: center;
+}
+.content .cenbox .table2 .desc .title {
+  font-size: 23px;
+}
+.content .cenbox .table2 .desc .summary {
+  margin-top: 25px;
+  font-size: 14px;
+}
+.content .cenbox .table2 .desc .more {
+  margin-top: 15px;
+  color: #987741;
+  font-size: 16px;
+}
+.content .cenbox .table2 .border {
+  position: relative;
+}
+.content .cenbox .table2 .border:before {
+  position: absolute;
+  top: -20px;
+  right: 44%;
+  display: inline-block;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid white;
+  border-left: 20px solid transparent;
+  border-bottom-color: #ffffff;
+  content: '';
+}
+.content .cenbox .table2 .border2 {
+  position: relative;
+}
+.content .cenbox .table2 .border2:before {
+  z-index: 100;
+  position: absolute;
+  bottom: -20px;
+  right: 44%;
+  display: inline-block;
+  border-right: 20px solid transparent;
+  border-top: 20px solid white;
+  border-left: 20px solid transparent;
+  border-bottom-color: #ffffff;
+  content: '';
+}
+.content table {
+  max-width: 1280px;
+  min-width: 1000px;
+  height: 260px;
+  margin: 0 auto;
+}
+.content table td {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+}
+.content table td .word {
+  position: absolute;
+  left: 32px;
+  bottom: 22px;
+  font-size: 24px;
+  color: white;
+}

@@ -1,0 +1,188 @@
+@import url('./init.less');
+
+.content{
+	min-height: 560px;
+	width: 1000px;
+	padding: 0 10px;
+	margin: 22px auto;
+	position: relative;
+	.left{
+		width: 225px;
+		float: left;
+		ul{
+			cursor: pointer;
+			list-style-type: none;
+			width: 225px;
+			margin-top: 40px;
+			.onit{
+				color: @unitedcolor;
+			}
+			li{
+				position: relative;
+				height: 42px;
+				border-bottom: 1px dotted @unitedcolor;
+				padding: 0px 10px;
+				.icon{
+					position: absolute;
+					left: 10px;
+					top: 7px;
+				}
+				.img{
+					float: left;
+					margin-top: 9px;
+					width: 22px;
+					height: 16px;
+					img{
+
+						width: 100%;
+						height: 100%;
+					}
+				}
+				span{
+					display: inline-block;
+					margin-left: 44px;
+					line-height: 42px;
+					font-size: 16px;
+				}
+				.arrow{
+					position: absolute;
+					right: 10px;
+					top: 14px;
+				}
+				
+			}
+		}
+	}
+	.right{
+		width: 755px;
+		padding-left: 38px;
+		float: left;
+		.title{
+			line-height: 30px;
+			font-size: 22px;
+			padding-bottom: 11px;
+			border-bottom: 2px solid @unitedcolor;
+			.img{
+				width: 40px;
+				height: 30px;
+				float: left;
+				margin-right: 13px;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+
+		}
+		.show{
+			display: block !important;
+		}
+		.incon1{
+			display: none;
+			padding-top: 30px;
+			padding-left: 200px;
+			line-height: 2;
+			position: relative;
+			.incon1_img{
+				position: absolute;
+				top:30px;
+				left: 0;
+				height: 140px;
+				width: 160px;
+				img{
+					width: 100%;
+					height: 100%;
+				}
+			}
+		}
+		.incon2{
+			display: none;
+			padding-top: 30px;
+			.incon2_box{
+				width: 100%;
+				padding-left: 200px;
+				position: relative;
+				margin-bottom: 50px;
+				.incon2_img{
+					position: absolute;
+					top:0px;
+					left: 0;
+					height: 160px;
+					width: 160px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+			}
+		}
+		.incon3{
+			display: none;
+			padding-top: 30px;
+			.incon3_box{
+				width: 100%;
+				margin-bottom: 40px;
+				.incon3_title{
+					height: 160px;
+					.img{
+						float: left;
+						width: 160px;
+						height: 160px;
+						img{
+							width: 100%;
+							height: 100%;
+						}
+					}
+					.name{
+						padding-top:130px;
+						float: left;
+						width: 540px;
+						height: 160px;
+						margin-left: 17px;
+						font-size: 20px;
+						border-bottom: 1px solid @unitedcolor;
+					}
+				}
+				.desc{
+					width: 100%;
+					padding-top: 20px;
+				}
+			}
+		}
+		.incon4{
+			display: none;
+			width: 100%;
+			padding-top: 30px;
+			.incon4_box{
+				&:nth-child(2n){
+                    margin-left:35px;
+                }
+				margin-bottom: 60px;
+				float: left;
+				width: 340px;
+				.incon4_img{
+					float: left;
+					width: 115px;
+					height: 150px;
+					img{
+						width: 100%;
+						height: 100%;
+					}
+				}
+				.incon4_word{
+					margin-left: 15px;
+					width: 210px;
+					float: left;
+					.incon4_name{
+						font-size: 20px;
+						line-height: 30px;
+						border-bottom: 1px solid @unitedcolor;
+					}
+					.incon4_detail{
+						margin-top: 15px;
+					}
+				}
+			}
+		}
+	}
+}
